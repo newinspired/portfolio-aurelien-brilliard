@@ -12,15 +12,15 @@ const Home = () => {
         <div className="projects-title">
             <h2>Projets en cours :</h2>
         </div>
-        <div className="cards">
+        <div className="cards" id="projects">
             <ProjectsCard 
             title="Questionnaire One Piece sur l'univers du manga" 
-            description="Utilisation de React, Vite, node.js, Express, MongoDB et socket.js." 
+            description="Utilisation de React, Vite, node.js, Express, MongoDB et socket.js (calcul des scores, gestion des temps de réponse etc.)." 
             picture={luffy}
             githubLink="https://github.com/newinspired/Manga-Lore"
             />
             <ProjectsCard 
-            title="Création d'un site de Loft de luxe (premier client)" 
+            title="Création d'un site de Loft de luxe" 
             description="Utilisation de langage simple HTML, CSS et JavaScript pour la création d'un site vitrine. La principale difficulté rencontrée sur ce site est la création des animations." 
             picture={imageLoft}
             githubLink="https://github.com/newinspired/Eclipse1723"

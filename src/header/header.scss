@@ -41,15 +41,14 @@ header{
         .navigation {
             display:flex;
             gap : 30px;
+            padding: 0px;
 
             a {
                 all :unset;
                 font-size : 30px;
                 cursor :pointer;
 
-                :hover{
-                    
-                }
+                
             }
         }
     }
