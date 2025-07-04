@@ -1,0 +1,56 @@
+
+
+header{
+    padding-top :30px;
+    margin-bottom: 50px;
+
+    .container-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        @media (max-width: 500px){
+            display: flex ;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo-header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor : pointer;
+
+            h1{
+                font-size: 40px;
+                margin : 0px;
+                padding : 0px;
+            }
+
+            .header-underline{
+                width: 50%;
+                height: 2px;
+                background-color: #191919;
+            }
+
+            .first-name{
+                font-size: 18px;
+            }
+        }
+
+        .navigation {
+            display:flex;
+            gap : 30px;
+
+            a {
+                all :unset;
+                font-size : 30px;
+                cursor :pointer;
+
+                :hover{
+                    
+                }
+            }
+        }
+    }
+}
